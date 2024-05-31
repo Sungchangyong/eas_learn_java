@@ -90,16 +90,36 @@ public class Test2 {
   //    System.out.println("y는" + y);
   //  }
 
+  //  public static void main(String[] args) {
+  //
+  //    int a = 100;
+  //    int b = 100;
+  //
+  //    System.out.println("전위 감소 연산자: " + (--a));
+  //    System.out.println("후위 감소 연산자: " + (b--));
+  //    System.out.println("전위 감소 연산자: " + (--a));
+  //    System.out.println("후위 감소 연산자: " + (b--));
+  //    System.out.println("전위 감소 연산자: " + (--a));
+  //    System.out.println("후위 감소 연산자: " + (b--));
+  //  }
+
   public static void main(String[] args) {
 
-    int a = 100;
-    int b = 100;
+    boolean isRaining = true;
 
-    System.out.println("전위 감소 연산자: " + (--a));
-    System.out.println("후위 감소 연산자: " + (b--));
-    System.out.println("전위 감소 연산자: " + (--a));
-    System.out.println("후위 감소 연산자: " + (b--));
-    System.out.println("전위 감소 연산자: " + (--a));
-    System.out.println("후위 감소 연산자: " + (b--));
+    if (isRaining) {
+      System.out.println("하늘에서 비가와요");
+    }
+    if (!isRaining){
+      System.out.println("김태희가 안옵니다.");
+    }
+
+    boolean isSunny = false;
+
+    if (!isSunny){
+      System.out.println("날씨가 맑아요");
+    }else{
+      System.out.println("");
+    }
   }
 }
